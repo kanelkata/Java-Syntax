@@ -14,8 +14,8 @@ public class Pr3_PointsInsideAFigure {
 		float a = Float.parseFloat(arr[0]);
 		float b = Float.parseFloat(arr[1]);
 		
-		if (((b<=13.5)&&(b>=6))&&(a>=12.5)&&(a<=22.5)) {
-			if (((b>13.5)&&(b<8.5))&&(a>17.5)&&(a<20)){
+		if (((b <= 13.5) && (b >= 6)) && (a >= 12.5) && (a <= 22.5)) {
+			if (((b > 13.5) && (b < 8.5)) && (a > 17.5) && (a < 20)){
 				System.out.print("Outside");
 			}
 			else {
