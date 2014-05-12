@@ -16,9 +16,6 @@ public class Pr7_CountOfBitsOne {
 			if (arr[i]=='1') {
 				count++;
 			}
-			else {
-				continue;
-			}
 		}
 		
 		System.out.print(count);
